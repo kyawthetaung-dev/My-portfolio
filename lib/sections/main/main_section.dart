@@ -8,7 +8,6 @@ import 'package:folio/responsive/responsive.dart';
 import 'package:folio/utils/navbar_utils.dart';
 import 'package:folio/utils/utils.dart';
 import 'package:folio/widget/navbar_actions_button.dart';
-import 'package:folio/widget/navbar_logo.dart';
 import 'package:provider/provider.dart';
 
 import 'package:universal_html/html.dart' as html;

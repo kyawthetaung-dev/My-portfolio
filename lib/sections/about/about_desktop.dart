@@ -32,10 +32,7 @@ class AboutDesktop extends StatelessWidget {
           Row(
             children: [
               Expanded(
-                child: Image.asset(
-                  StaticUtils.coloredPhoto,
-                  height: height * 0.7,
-                ),
+                child: Image.asset('assets/photos/kta.png',height: height* 0.5,),
               ),
               Expanded(
                 flex: width < 1230 ? 2 : 1,

@@ -18,7 +18,7 @@ class HomeDesktop extends StatelessWidget {
       padding: Space.h,
       child: Stack(
         children: [
-          Positioned(
+          const Positioned(
             bottom: 0,
             right: 0,
             child: Opacity(
@@ -65,10 +65,11 @@ class HomeDesktop extends StatelessWidget {
                     fontWeight: FontWeight.w100,
                   ),
                 ),
+                Space.y!,
                 Text(
-                  "Junior Mobile Developer",
+                  "University of Computer Studies Sittway",
                   style: AppText.h1b!.copyWith(
-                    fontSize: AppDimensions.normalize(20),
+                    fontSize: AppDimensions.normalize(15),
                     height: 1,
                   ),
                 ),
@@ -85,15 +86,11 @@ class HomeDesktop extends StatelessWidget {
                       AnimatedTextKit(
                         animatedTexts: [
                           TyperAnimatedText(
-                            ' Flutter Developer',
+                            'Junior Mobile Developer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
-                          TyperAnimatedText(
-                            ' Node.js Developer',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
+                         
                           
                         ],
                         isRepeatingAnimation: true,

@@ -21,9 +21,9 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: "\nPortfolio",
+            text: "\nProjects",
           ),
-         
+        const SizedBox(height: 20,),
           Wrap(
             alignment: WrapAlignment.center,
             crossAxisAlignment: WrapCrossAlignment.center,
@@ -34,7 +34,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                 .map(
                   (e) => ProjectCard(
                     banner: e.value,
-                    projectIcon: ProjectUtils.icons[e.key],
+                   
                     projectLink: ProjectUtils.links[e.key],
                     projectTitle: ProjectUtils.titles[e.key],
                     projectDescription: ProjectUtils.description[e.key],

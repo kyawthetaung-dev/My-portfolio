@@ -23,7 +23,7 @@ class ServiceDesktopState extends State<ServiceDesktop> {
             text: '\nWhat I can do?',
           ),
          
-          Space.x!,
+         SizedBox(height: 20,),
           Wrap(
             spacing: width * 0.05,
             runSpacing: height * 0.05,
