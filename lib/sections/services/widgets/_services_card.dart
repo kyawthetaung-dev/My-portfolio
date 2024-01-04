@@ -66,9 +66,9 @@ class _ServiceCardState extends State<_ServiceCard> {
                     )
                   ],
           ),
-          child: _ServiceCardBackWidget(
-            serviceTitle: widget.serviceTitle,
-          ),
+          // child: _ServiceCardBackWidget(
+          //   serviceTitle: widget.serviceTitle,
+          // ),
         ),
         front: Container(
           width: AppDimensions.normalize(100),
@@ -99,7 +99,7 @@ class _ServiceCardState extends State<_ServiceCard> {
               Image.asset(
                 widget.serviceIcon,
                 height: AppDimensions.normalize(30),
-                color: widget.serviceIcon.contains(StaticUtils.openSource) &&
+                color: widget.serviceIcon.contains(StaticUtils.appDev) &&
                         !appProvider.isDark
                     ? Colors.black
                     : null,

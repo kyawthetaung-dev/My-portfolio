@@ -22,7 +22,7 @@ class AppTheme {
 
   static AppCoreTheme dark = _core.copyWith(
     background: Colors.grey[900],
-    backgroundSub: const Color(0xff1c1c1e),
+    backgroundSub: Color.fromARGB(255, 8, 104, 194),
     scaffold: const Color(0xff0e0e0e),
     text: Colors.white,
     textSub2: Colors.white.withOpacity(0.25),

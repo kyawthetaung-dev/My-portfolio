@@ -4,17 +4,13 @@ class ServicesUtils {
   static const List<String> servicesIcons = [
     StaticUtils.appDev,
     StaticUtils.uiux,
-    StaticUtils.rapid,
-    StaticUtils.blog,
-    StaticUtils.openSource,
+    StaticUtils.dashboard,
   ];
 
   static const List<String> servicesTitles = [
     "Mobile App Development",
     "UI/UX Designing",
-    "Rapid Prototyping",
-    "Technical Blog Writing",
-    "Open Source - GitHub",
+    "Dashboard Developmemt",
   ];
 
  
