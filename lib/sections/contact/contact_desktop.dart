@@ -18,7 +18,7 @@ class ContactDesktop extends StatelessWidget {
             text: "\nContact",
           ),
          
-         SizedBox(height: 20,),
+         const SizedBox(height: 20,),
           Wrap(
               alignment: WrapAlignment.center,
               runSpacing: AppDimensions.normalize(10),

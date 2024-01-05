@@ -9,18 +9,7 @@ import 'package:folio/widget/footer.dart';
 class StaticUtils {
   static const String hi = 'assets/hi.gif';
 
-  // // photos
-  // static const String mobilePhoto = 'assets/photos/mobile.png';
-  // static const String coloredPhoto = 'assets/photos/mobile.png';
-  // static const String blackWhitePhoto = 'assets/photos/black-white.png';
-
-  // // work
-  // static const String dsc = 'assets/work/dsc.png';
-  // static const String sastaticket = 'assets/work/st.png';
-  // static const String university = 'assets/work/cui.png';
-  // static const String fullterIsb = 'assets/work/flutterIsl.png';
-
-  // services
+  
   static const String uiux = 'assets/services/ui.png';
   static const String blog = 'assets/services/blog.png';
   static const String appDev = 'assets/services/app.png';
