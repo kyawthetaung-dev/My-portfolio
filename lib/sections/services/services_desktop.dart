@@ -23,7 +23,7 @@ class ServiceDesktopState extends State<ServiceDesktop> {
             text: '\nWhat I can do?',
           ),
          
-         SizedBox(height: 20,),
+         const SizedBox(height: 20,),
           Wrap(
             spacing: width * 0.05,
             runSpacing: height * 0.05,
