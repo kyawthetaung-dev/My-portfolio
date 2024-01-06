@@ -47,14 +47,14 @@ class MaterialChild extends StatefulWidget {
 }
 
 class _MaterialChildState extends State<MaterialChild> {
-  void initAppTheme() {
-    final appProviders = AppProvider.state(context);
-    appProviders.init();
-  }
+  // void initAppTheme() {
+  //   final appProviders = AppProvider.state(context);
+  //   appProviders.init();
+  // }
 
   @override
   void initState() {
-    initAppTheme();
+    // initAppTheme();
     super.initState();
   }
 
