@@ -21,6 +21,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
           const CustomSectionHeading(
             text: "\nProjects",
           ),
+         
         const SizedBox(height: 20,),
           Wrap(
             alignment: WrapAlignment.center,
@@ -40,6 +41,8 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                 )
                 .toList(),
           ),
+          SizedBox(height: 20,),
+          const Text("Other student projects will not show here..")
           
         ],
       ),

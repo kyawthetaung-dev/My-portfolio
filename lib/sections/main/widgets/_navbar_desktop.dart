@@ -8,6 +8,7 @@ class _NavbarDesktop extends StatelessWidget {
     final appProvider = Provider.of<AppProvider>(context);
 
     return Container(
+      width: MediaQuery.of(context).size.width,
       padding: Space.all(),
       color: appProvider.isDark ? Colors.black : Colors.white,
       child: Row(

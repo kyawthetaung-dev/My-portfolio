@@ -16,10 +16,7 @@ class _MobileDrawer extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // const Center(
-              //   child: NavBarLogo(),
-              // ),
-              // const Divider(),
+             
               ListTile(
                 leading: Icon(
                   Icons.light_mode,
