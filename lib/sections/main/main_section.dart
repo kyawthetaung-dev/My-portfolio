@@ -35,11 +35,13 @@ class _MainPageState extends State<MainPage> {
       key: drawerProvider.key,
       extendBodyBehindAppBar: true,
       drawer: !Responsive.isDesktop(context) ? const _MobileDrawer() : null,
-      body: const SafeArea(
+      body:  SafeArea(
         child: Stack(
           children: [
-            _Body(),
-            _NavbarDesktop(),
+            const _Body(),
+            // const _NavbarDesktop(),
+             Responsive.isMobile(context)?const _NavBarMobile()
+                :  const _NavbarDesktop(),
           ],
         ),
       ),

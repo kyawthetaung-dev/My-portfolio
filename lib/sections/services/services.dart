@@ -1,4 +1,5 @@
 
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -11,6 +12,8 @@ import 'package:folio/widget/custom_text_heading.dart';
 import 'package:provider/provider.dart';
 
 part 'services_desktop.dart';
+part 'services_mobile.dart';
+
 
 part 'widgets/_services_card.dart';
 // part 'widgets/_services_card_back.dart';
@@ -22,6 +25,7 @@ class Services extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Responsive(
       desktop: ServiceDesktop(),
+      mobile: ServiceMobile(),
     );
   }
 }

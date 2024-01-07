@@ -18,7 +18,6 @@ class AboutDesktop extends StatelessWidget {
           const CustomSectionHeading(
             text: '\nAbout Me',
           ),
-         
           Space.y1!,
           Row(
             children: [
@@ -32,7 +31,6 @@ class AboutDesktop extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                     
                       Space.y!,
                       Text(
                         AboutUtils.aboutMeDetail,

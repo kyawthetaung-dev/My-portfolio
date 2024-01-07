@@ -16,9 +16,7 @@ class ContactDesktop extends StatelessWidget {
         children: [
           const CustomSectionHeading(
             text: "\nContact",
-          ),
-         
-         const SizedBox(height: 20,),
+          ),const SizedBox(height: 20,),
           Wrap(
               alignment: WrapAlignment.center,
               runSpacing: AppDimensions.normalize(10),

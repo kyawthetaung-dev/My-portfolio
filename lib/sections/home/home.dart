@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:folio/responsive/responsive.dart';
 import 'package:folio/sections/home/home_desktop.dart';
+import 'package:folio/sections/home/home_mobile.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -9,6 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Responsive(
       desktop: HomeDesktop(),
+      mobile: HomeMobile(),
     );
   }
 }

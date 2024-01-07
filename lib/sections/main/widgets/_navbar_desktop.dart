@@ -66,8 +66,8 @@ class _NavbarDesktop extends StatelessWidget {
   }
 }
 
-class _NavBarTablet extends StatelessWidget {
-  const _NavBarTablet({Key? key}) : super(key: key);
+class _NavBarMobile extends StatelessWidget {
+  const _NavBarMobile({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

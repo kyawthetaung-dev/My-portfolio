@@ -90,8 +90,6 @@ class HomeDesktop extends StatelessWidget {
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
-                         
-                          
                         ],
                         isRepeatingAnimation: true,
                       ),

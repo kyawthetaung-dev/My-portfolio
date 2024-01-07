@@ -22,7 +22,6 @@ class ServiceDesktopState extends State<ServiceDesktop> {
           const CustomSectionHeading(
             text: '\nWhat I can do?',
           ),
-         
          const SizedBox(height: 20,),
           Wrap(
             spacing: width * 0.05,
@@ -36,7 +35,6 @@ class ServiceDesktopState extends State<ServiceDesktop> {
                   (e) => _ServiceCard(
                     serviceIcon: ServicesUtils.servicesIcons[e.key],
                     serviceTitle: ServicesUtils.servicesTitles[e.key],
-                   
                   ),
                 )
                 .toList(),

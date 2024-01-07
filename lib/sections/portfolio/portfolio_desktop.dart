@@ -33,7 +33,6 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                 .map(
                   (e) => ProjectCard(
                     banner: e.value,
-                   
                     projectLink: ProjectUtils.links[e.key],
                     projectTitle: ProjectUtils.titles[e.key],
                     projectDescription: ProjectUtils.description[e.key],
@@ -41,7 +40,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                 )
                 .toList(),
           ),
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           const Text("Other student projects will not show here..")
           
         ],
