@@ -14,8 +14,8 @@ class ContactUtils {
   ];
 
   static const List<String> details = [
-    "Rakhine,Sittwe",
-    "09-448-072-453,09-665-715-217",
-    "kyawthetaung@ucssittway.edu.mm",
+    "Sittwe,Rakhine",
+    "09-448-072-453\n09-665-715-217",
+    "kthet2247@gmail.com",
   ];
 }
