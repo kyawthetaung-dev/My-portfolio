@@ -22,7 +22,7 @@ class AboutDesktop extends StatelessWidget {
           Row(
             children: [
               Expanded(
-                child: Image.asset('assets/photos/kta.png',height: height* 0.5,),
+                child: Image.asset('assets/photos/kta.png',height: height* 1,),
               ),
               Expanded(
                 flex: width < 1230 ? 2 : 1,
