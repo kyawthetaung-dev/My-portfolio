@@ -28,7 +28,7 @@ class StaticUtils {
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/17fCP-h5aDMFElrFmYQaIfx6tPLIN08pi/view?usp=drivesdk';
+      'https://drive.google.com/file/d/184Gk-6y1ZsfgILRrPHidvepBLYteLH0K/view?usp=drivesdk';
 
   static const String gitHub = 'https://github.com/kyawthetaung-dev';
 }
